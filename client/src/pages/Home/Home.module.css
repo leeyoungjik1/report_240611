@@ -1,0 +1,81 @@
+.HomePage{
+    width: 100%;
+    min-height: calc(100vh - 100px - 64px);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0 10rem 0;
+    /* gap: 2rem; */
+}
+.mainImgContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.img{
+    width: var(--base-width);
+    width: 100vw;
+    height: 100vh;
+    /* border-radius: 25px; */
+    position: absolute;
+    bottom: 0;
+}
+.phrase{
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    transform: scale(0);
+    font-family: "BMHANNA_11yrs";
+    cursor: default;
+    transition: 1s;
+}
+.createBtn{
+    color: var(--praimary-color);
+    position: absolute;
+    left: 22%;
+    top: 48%;
+    font-size: 40px;
+    text-decoration-line: none;
+    font-family: "BMHANNA_11yrs";
+    /* border: 1px solid red; */
+    padding: 20px 50px 10px 50px;
+    transform: scale(0);
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.sizeUp{
+    transform: scale(1);
+}
+.createBtn:hover{
+    color: white;
+    background-color: var(--praimary-color);
+}
+.PopularityDestinationContainer{
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 100vh;
+}
+.filter{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.PopularityOfContryContainer{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,57 @@
+.joinPage{
+    width: var(--base-width);
+    min-height: calc(130vh - 100px - 17px);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+}
+.joinContainer{
+    width: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+    background: url(../../assets/mainLogo.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2.5rem;
+}
+.joinContainer>form{
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+.joinContainer>form>div{
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+    color: var(--gray-color-3);
+}
+.joinContainer>form input{
+    font-size: var(--font-size-text-mideum);
+    padding: .8rem;
+}
+.joinContainer>form button{
+    background-color: #5DA9E9;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 1rem;
+}
+.joinContainer>form button:hover{
+    background-color: #3D8BCD;
+}

@@ -1,0 +1,118 @@
+.popularityDestinationCard{
+    width: 18%;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    font-size: var(--font-size-text-large);
+    /* gap: .5rem; */
+    /* border: 1px solid gray; */
+    /* padding: .5rem; */
+    box-sizing: border-box;
+    border-radius: 15px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  */
+    position: relative;
+    transition: .3s;
+}
+.popularityDestinationCard:hover{
+    transform: scale(1.05);
+}
+.popularityDestinationCard a{
+    border-radius: 15px;
+    height: 300px;
+    box-sizing: border-box;
+}
+.popularityDestinationCard a:visited{
+    color: white;
+    text-decoration: none;
+}
+.popularityDestinationCard a:link{ 
+    color: white;
+    text-decoration: none;
+}
+.popularityDestinationCard a:visited{
+    color: white;
+    text-decoration: none;
+}
+.popularityDestinationCard a:hover{
+    color: white;
+    text-decoration: none;
+    /* background-color: #E65C53; */
+}
+.popularityDestinationCard a:active{
+    color: white;
+    text-decoration: none;
+}
+.popularityDestinationCard img{
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    box-sizing: border-box;
+    /* object-fit: cover; */
+}
+.detailsBtn{
+    width: fit-content;
+    color: white;
+    text-decoration-line: none;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    padding: .2rem .4rem;
+    transition: .2s;
+    background-color: #FF6F61;
+    font-weight: normal;
+}
+.detailsBtn:visited{
+    color: white;
+    text-decoration: none;
+}
+.detailsBtn:link{ 
+    color: white;
+    text-decoration: none;
+}
+.detailsBtn:visited{
+    color: white;
+    text-decoration: none;
+}
+.detailsBtn:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #E65C53;
+}
+.detailsBtn:active{
+    color: white;
+    text-decoration: none;
+}
+.details{
+    height: fit-content;
+    width: 100%;
+    height: 100%;
+    /* padding: .5rem 1rem 1rem 1rem; */
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px 12px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+    justify-content: flex-end;
+    flex: 1;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    /* bottom: 1rem; */
+    /* left: 1rem; */
+    transition: .3s;
+}
+.details:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+.text{
+    display: flex;
+    flex-flow: column;
+    gap: .4rem;
+    padding: .5rem;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}

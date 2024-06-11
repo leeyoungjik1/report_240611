@@ -1,0 +1,18 @@
+.selectDayBtns{
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem .5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.selectDayBtns:hover{
+    background-color: var(--praimary-color);
+    color: white;
+}

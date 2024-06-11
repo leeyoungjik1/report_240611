@@ -1,0 +1,185 @@
+.detailedItineraryPage{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+.itineraryCardContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+.selectDay{
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    /* border: 1px solid gray; */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+    padding: .5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-text-large);
+    gap: 3rem;
+}
+.selectDay input{
+    width: 100px;
+    /* height: 50px; */
+    font-size: var(--font-size-text-small);
+}
+.message{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-text-medium);
+    font-weight: bold;
+    /* border: 1px solid gray; */
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    /* border-radius: 15px; */
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+}
+.itineraryByDateCardContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+.itineraryByDateCardContainer h2{
+    font-size: var(--font-size-h1);
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+.accommodationContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    /* padding: .5rem; */
+    box-sizing: border-box;
+    /* border: 1px solid gray; */
+}
+.accommodationContainer>form{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+}
+.accommodationContainer>form button{
+    background-color: white;
+    color: #5DA9E9;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0 0 15px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.accommodationContainer>form button:hover {
+    color: white;
+    background-color: #5DA9E9;
+}
+.accommodationInfoContainer{
+    width: 100%;
+    display: flex;
+}
+.accommodationInfoContainer>img{
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+}
+.accommodationInfoContainer>div{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 3rem;
+}
+.accommodationInfoContainer>div input[name="accommodationName"]{
+    width: 30%;
+}
+.accommodationInfoContainer>div input[name="accommodationAddress"]{
+    width: 70%;
+}
+.accommodationInfoContainer>div input[name="accommodationCost"]{
+    width: 15%;
+}
+.accommodationInfoContainer>div>div{
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+.destinationContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+.destinationContainer>div{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+}
+.destinationBtns{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    /* gap: .5rem; */
+}
+.destinationBtns button{
+    background-color: white;
+    color: #5DA9E9;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    /* border-radius: 15px; */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.destinationBtns button:nth-child(1){
+    background-color: white;
+    color: var(--state-color-error);
+    border-radius: 15px 15px 0 0;
+}
+.destinationBtns button:nth-child(1):hover{
+    color: white;
+    background-color: var(--state-color-error);
+}
+.destinationBtns button:nth-child(2){
+    /* border-top: 1px solid #3D8BCD; */
+}
+.destinationBtns button:hover {
+    color: white;
+    background-color: #5DA9E9;
+}
+.destinationCardContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    /* border: 1px solid gray; */
+}

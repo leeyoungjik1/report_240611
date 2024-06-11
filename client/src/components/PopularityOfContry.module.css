@@ -1,0 +1,16 @@
+.popularityOfContryContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+.popularityOfContryContainer>h2{
+    text-align: center;
+}
+.popularityDestinationCard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}

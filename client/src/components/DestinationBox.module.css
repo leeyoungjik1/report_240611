@@ -1,0 +1,161 @@
+.destinationBox{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.order{
+    width: 5%;
+    /* height: 100%; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+}
+.number{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid gray; */
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.line{
+    width: 0;
+    height: 115%;
+    border: .5px solid var(--gray-color-5);
+    position: absolute;
+    z-index: -1;
+}
+.destinationInfoBox{
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+}
+.destinationInfoTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.destinationInfoTop button{
+    width: 60px;
+    color: #2A4040;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--font-size-text-small);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-bottom: 1rem;
+}
+.destinationInfoTop button:hover {
+    color: white; 
+    background-color: #2A4040; 
+}
+.destinationInfoTop>div{
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+}
+.destinationWeather{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: .5rem 0;
+}
+.destinationWeather img{
+    width: 50px;
+}
+.destinationWeather>div{
+    font-size: .7rem;
+}
+.destinationInfoMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.destinationInfoTitle{
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+.destinationInfoTitle>div:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.destinationInfoMain img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.title{
+    font-weight: bold;
+}
+.red{
+    background-color: #FF6666;
+}
+.orange{
+    background-color: #FFC266;
+}
+.yellow{
+    background-color: #F2F200;
+
+}
+.green{
+    background-color: #00FF00;
+}
+.blue{
+    background-color: #6666FF;
+}
+.indigo{
+    background-color: #87CEEB;
+}
+.purple{
+    background-color: #C266FF;
+}
+.description{
+    font-size: var(--font-size-text-small);
+    color: var(--gray-color-3);
+}
+.title{
+    font-weight: bold;
+}
+.restaurant{
+    color: #006400;
+}
+.spot{
+    color: #1DA1F2;
+}
+.cafe{
+    color: #6c757d;
+}
+.shop{
+    color: #fd7e14;
+}
+.bar{
+    color: #dc3545;
+}
+.rest{
+    color: #6f42c1;
+}
+.tbd{
+    color: #adb5bd;
+}
+.time, .cost{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}

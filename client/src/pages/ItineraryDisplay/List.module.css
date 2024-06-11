@@ -1,0 +1,33 @@
+.listPage{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: .5rem;
+    box-sizing: border-box;
+}
+.listPage h1{
+    font-size: 50px;
+}
+.filterContronBox{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 1rem 0;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+.itinerarys{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 3rem;
+}
+.itinerarysContainer{
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}

@@ -1,0 +1,10 @@
+.notFoundPage{
+    width: var(--base-width);
+    min-height: calc(100vh - 100px - 17px);
+    display: flex;
+    flex-flow: column;
+    /* justify-content: center; */
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 4rem;
+}

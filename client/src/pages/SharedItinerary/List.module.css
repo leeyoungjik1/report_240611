@@ -1,0 +1,60 @@
+.listPage{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: .5rem;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+.listPage h1{
+    font-size: 50px;
+}
+.listPage>form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.filterContronBox{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 1rem 0;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+.itinerarys{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 3rem;
+}
+.itinerarysContainer{
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+.listPage>form input{
+    padding-right: 45px;
+    border-radius: 0 20px 20px 0;
+    border-left: none;
+    border: 1px solid var(--gray-color-4);
+}
+.listPage>form button{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+.listPage select{
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    padding: 10px 40px 10px 20px;
+}

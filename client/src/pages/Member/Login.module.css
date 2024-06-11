@@ -1,0 +1,81 @@
+.loginPage{
+    width: var(--base-width);
+    min-height: calc(100vh - 100px - 17px);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+}
+.loginContainer{
+    width: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+    background: url(../../assets/mainLogo.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2.5rem;
+}
+.loginContainer>form{
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+.loginContainer>form>div:not(.join, .find){
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+    color: var(--gray-color-3);
+}
+.join, .find{
+    display: flex;
+    gap: .5rem;
+    color: var(--gray-color-4);
+    text-decoration-line: none;
+    font-size: var(--font-size-text-small);
+    justify-content: center;
+}
+.join a:visited, .find a:visited{
+    color: var(--state-color-info);
+    text-decoration: none;
+}
+.join a:link, .find a:link{
+    color: var(--state-color-info);
+    text-decoration: none;
+}
+.join a:hover, .find a:hover{
+    color: var(--state-color-info);
+    text-decoration: underline;
+}
+.join a:active, .find a:active{
+    color: var(--state-color-info);
+    text-decoration: none;
+}
+.loginContainer>form input{
+    font-size: var(--font-size-text-large);
+    padding: 1rem;
+}
+.loginContainer>form button{
+    background-color: #5DA9E9;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 1rem;
+}
+.loginContainer>form button:hover{
+    background-color: #3D8BCD;
+}

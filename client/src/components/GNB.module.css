@@ -1,0 +1,123 @@
+.gnbContainer{
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.gnb{
+    width: 60%;
+    min-width: 1330px;
+    max-width: 1750px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: var(--font-size-h2);
+    font-family: "suite-Bold";
+    color: black;
+    background-color: white;
+}
+.logo{
+    width: 100px;
+    /* height: 120px; */
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.mainMenu{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.userMenu{
+    display: flex;
+    gap: 1rem;
+    font-size: var(--font-size-text-medium);
+}
+.userMenu a{
+    color: black;
+    text-decoration-line: none;
+    position: relative;
+    transition: .3s;
+    font-weight: bold;
+}
+.userMenu a:link{ 
+    color: black;
+    text-decoration: none;
+}
+.userMenu a:hover{
+    color: #F2D680;
+    text-decoration: none;
+}
+.userMenu a:active{
+    color: black;
+    text-decoration: none;
+}
+.menu{
+    color: black;
+    text-decoration-line: none;
+    position: relative;
+    transition: .3s;
+    font-size: var(--font-size-h3);
+    font-weight: bold;
+}
+/* .menu:visited{
+    color: white;
+    text-decoration: none;
+} */
+.menu:link{ 
+    color: black;
+    text-decoration: none;
+}
+.menu:hover{
+    color: black;
+    text-decoration: none;
+}
+.menu:active{
+    color: black;
+    text-decoration: none;
+}
+.menu:not([name="logo"]):hover{
+    color: #F2D680;
+}
+.menu:not([name="logo"]):before{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #F2D680;
+    transition: .3s;
+}
+.menu:not([name="logo"]):hover::before{
+    width: 100%;
+}
+.active{
+    transform: scale(1.1);
+    text-decoration-line: none;
+    color: #F2D680;
+    position: relative;
+    transition: .3s;
+}
+.active:before{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #F2D680;
+    transition: .3s;
+}

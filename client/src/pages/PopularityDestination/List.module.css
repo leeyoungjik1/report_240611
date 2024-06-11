@@ -1,0 +1,36 @@
+.listPage{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: .5rem;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+.listPage h1{
+    font-size: 50px;
+}
+.listPage h2{
+    font-size: var(--font-size-h1);
+}
+.contents{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+.filter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: flex-end;
+}
+.popularityOfContry{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}

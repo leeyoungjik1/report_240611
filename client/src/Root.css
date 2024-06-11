@@ -1,0 +1,81 @@
+:root{
+    --base-width: 70%;
+    --min-width: 1200px;
+    --max-width: 1500px;
+    --main-font: pretendard, sans-serif;
+    --sub-font: ahn;
+    --font-size-h1: 32px;
+    --font-size-h2: 28px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --font-size-text-large: 20px;
+    --font-size-text-medium: 18px;
+    --font-size-text-normal: 16px;
+    --font-size-text-small: 14px;
+    --gnb-heigt: 120px;
+    --gnb-padding: 10px;
+    --header-heigt: calc(var(--gnb-heigt) + var(--gnb-padding)*2);
+    --praimary-color: #5DA9E9; 
+    --secondary-color: #FF6F61;
+    --praimary-color-tp: 247, 236, 235;
+    --secondary-color-tp: 84, 162, 92;
+    --state-color-info: #2F80ED;
+    --state-color-success: #27AE60;
+    --state-color-warning: #E2B93B;
+    --state-color-error: #EB5757;
+    --black-color-1: #1D1D1D;
+    --black-color-2: #282828;
+    --gray-color-1: #333333;
+    --gray-color-2: #4F4F4F;
+    --gray-color-3: #828282;
+    --gray-color-4: #BDBDBD;
+    --gray-color-5: #E0E0E0;
+}
+#root{
+    width: 100%;
+    min-width: 1900px;
+    max-width: 2500px;
+    display: flex;
+    justify-content: center;
+    font-family: "suite-Regular";
+}
+@font-face {
+    font-family: "BMHANNA_11yrs";
+    font-weight: normal;
+    src: url("./assets/BMHANNA_11yrs_ttf.ttf") format("truetype");
+}
+@font-face {
+    font-family: "suite-Bold";
+    font-weight: normal;
+    src: url("./assets/SUITE-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "suite-Regular";
+    font-weight: normal;
+    src: url("./assets/SUITE-Regular.ttf") format("truetype");
+}
+select{
+    padding: 10px;
+    padding-right: 40px;
+    border: 1.5px solid var(--gray-color-4);
+    border-radius: 20px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('./assets/chevron-down-solid.svg') no-repeat 85% 50%;  
+    background-size: 15px;
+    font-weight: bold;
+}
+input{
+    border: 1px solid var(--gray-color-4);
+    /* border-radius: 5px; */
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid var(--gray-color-4);
+}
+textarea{
+    border: 1px solid var(--gray-color-4);
+    border-radius: 5px;
+    padding: 5px 10px;
+}

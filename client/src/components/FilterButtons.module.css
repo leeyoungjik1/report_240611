@@ -1,0 +1,51 @@
+.filterBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+.filterBtns button {
+    color: #2A4040;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: var(--font-size-text-small);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.filterBtns button:hover {
+    color: white; 
+    background-color: #2A4040; 
+}
+
+/* .filterBtns button {
+    background-color: #f2f2f2; 
+    border: none;
+    color: #333; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.filterBtns button:hover {
+    background-color: #ddd;
+}
+
+.filterBtns button.active {
+    background-color: #ccc; 
+    color: #000;
+} */

@@ -1,0 +1,34 @@
+.popularityOfContryContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+.popularityOfContryContainer>h2{
+    text-align: center;
+}
+.popularityDestinationCard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+}
+.decription{
+    display: flex;
+    flex-flow: column;
+    gap: 3rem;
+}
+.decription>h2{
+    margin-top: 0;
+    font-size: 60px;
+}
+.decription>div{
+    font-size: 40px;
+}
+.popularityDestinationCard>div{
+    width: 30%;
+}
+.popularityDestinationCard img{
+    height: 350px;
+}
